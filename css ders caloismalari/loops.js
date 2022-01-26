@@ -17,12 +17,12 @@
 // console.log(sum);
 
 
-let i = +prompt('Bir sayi giriniz :')
+// let i = +prompt('Bir sayi giriniz :')
 
 
-while (isNaN(i)) {
-    i = +prompt('Bir sayi giriniz :')
+// while (isNaN(i)) {
+//     i = +prompt('Bir sayi giriniz :')
  
-}
+// }
 
-   console.log('Bir sayi girdiniz....');
+//    console.log('Bir sayi girdiniz....');
