@@ -116,9 +116,31 @@
 //     return a + 100
 // }
 
-let mehmet = (a) => a + 100
+// let mehmet = (a) => a + 100
 
-console.log(mehmet(50));
+// console.log(mehmet(50));
 
-let toplam = a => a + 100;
-console.log(toplam(30));
+// let toplam = a => a + 100;
+// console.log(toplam(30));
+
+// let user = 'Murat' ;
+
+// let sayHi = () => console.log(`Welcome ${user}`);
+
+// sayHi()
+
+// let toplam2 = (num1, num2) => num1 + num2;
+
+// console.log(typeof toplam2());
+
+// let iife = (function trian(num) {
+//     if (num === 1) return 1;
+//     return num + trian(num-1);
+// })(3);
+// console.log(iife);
+
+let nums = 5
+let iife2 = (function(num) {
+    return num *(num+1)/2;
+})(nums);
+console.log(iife2);
