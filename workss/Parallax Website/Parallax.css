@@ -1,0 +1,112 @@
+#divRectangleMeasureIt {
+    display: ;
+    position: absolute;
+    z-index: 199999;
+    cursor: move;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-image: initial;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #666;
+    height: 100%;
+}
+.background-container--image1{
+    background-image: url('bg.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;   
+}
+section{
+    text-align: center;
+    padding: 3rem 5rem;
+    display: block;
+    font-size: 0.9rem;
+}
+p{
+    color: #666;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.background-container--image2{
+    background-image: url('bg2.jpg');
+    min-height: 80%;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.heading-container{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+.heading-container__heading--big{
+    background-color: black;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.8rem inset purple;
+    outline-offset: 1rem;
+    line-height: 0.5rem;
+}
+
+
+.heading-container__heading--logo{
+    width: 30%;
+    margin: 1rem;
+}
+
+.section__section--dark{
+    background-color: #282e34;
+    color: #DDDDDD;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.background-container--image3{
+    background-image: url('bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
