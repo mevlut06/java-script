@@ -1,13 +1,4 @@
-#divRectangleMeasureIt {
-    display: ;
-    position: absolute;
-    z-index: 199999;
-    cursor: move;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(255, 0, 0);
-    border-image: initial;
-}
+
 body, html{
     margin: 0;
     padding: 0;
@@ -64,14 +55,15 @@ p{
     text-align: center;
     letter-spacing: 0.5rem;
     color: white;
+    text-transform: uppercase;
 }
 
 .heading-container__heading--big{
     background-color: black;
-    padding: 1rem;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    outline: 0.8rem inset purple;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.5rem inset purple;
     outline-offset: 1rem;
     line-height: 0.5rem;
 }
@@ -82,9 +74,16 @@ p{
     margin: 1rem;
 }
 
-.section__section--dark{
+.section--light{
+    background-color: #f1f1f1;
+    color: #666;
+    line-height: 1.8rem;;
+}
+
+.section--dark{
     background-color: #282e34;
     color: #DDDDDD;
+    line-height: 1.8rem;
 }
 
 h2 {
@@ -110,3 +109,54 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+ .background-container--image4{
+     background-image: url(./bg4.jpg);
+     background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .heading-container__heading--small{
+     background-color: black;
+     color: white;
+     padding: 0.7rem;
+     text-transform: capitalize;
+     border-radius: 0.7rem 0rem 0.7rem 0rem;
+     outline: 0.4rem inset purple;
+     outline-offset: 0.2rem;
+ }
+ 
+ @media(max-width:768px){
+    .heading-container__heading--logo{
+        width: 50%;
+        margin: 1rem;
+    }
+    .heading-container{
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+    }
+    .heading-container__heading--big{
+        padding: 1rem;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        outline: 0.5rem inset purple;
+        outline-offset: 1rem;
+        
+    }
+    .section{
+        padding: 1.5rem 2rem;      
+    }
+ }
+
+ @media(max-width:300px){
+    .heading-container__heading--big{
+        width: 100%;
+    }
+ }
